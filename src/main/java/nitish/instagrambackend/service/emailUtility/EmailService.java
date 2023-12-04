@@ -8,8 +8,8 @@ import java.util.Properties;
 @Service
 public class EmailService {
 
-    private static final String EMAIL_USERNAME ="mainakgh1@gmail.com";
-    private static final String EMAIL_PASSWORD =""; //fill your own app password
+    private static final String EMAIL_USERNAME ="nks1997kumar@gmail.com";
+    private static final String EMAIL_PASSWORD ="rtgp gkiv rcix wabx"; //fill your own app password
 
 
     public static boolean sendEmail(String toEmail, String subject, String body)  {

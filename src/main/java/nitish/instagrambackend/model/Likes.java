@@ -22,4 +22,7 @@ public class Likes {
     @ManyToOne
     @JoinColumn(name = "fk_liker_id")
     private User liker;
+
+    public void getLiker(User liker) {
+    }
 }
